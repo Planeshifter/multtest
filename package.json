@@ -1,0 +1,29 @@
+{
+  "name": "multtest",
+  "version": "0.1.0",
+  "description": " adjustments of p-values for multiple comparisons",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Planeshifter/multtest.git"
+  },
+  "keywords": [
+    "hypothesis-testing",
+    "statistics"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/multtest/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/multtest",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
