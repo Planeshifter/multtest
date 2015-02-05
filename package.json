@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Planeshifter/multtest",
   "devDependencies": {
+    "chai": "^1.10.0",
     "chai-deep-closeto": "^0.1.1",
     "mocha": "^2.1.0"
   }
