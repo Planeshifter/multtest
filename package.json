@@ -1,6 +1,6 @@
 {
   "name": "multtest",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": " adjustments of p-values for multiple comparisons",
   "main": "lib/main.js",
   "directories": {
