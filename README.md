@@ -4,13 +4,13 @@
 
 > adjustments of p-values for multiple comparisons
 
-# Installation
+## Installation
 
 ```
 npm install multtest
 ```
 
-# Usage:
+## Usage:
 
 Require as follows:
 
@@ -18,21 +18,23 @@ Require as follows:
 var multtest = require('multtest');
 ```
 
+## API
+
 `multtest` exports the following functions:
 
-## `.bonferroni(pvalues,[numHypotheses])`
+### `.bonferroni(pvalues,[numHypotheses])`
 
 Given an input array of pvalues, `pvalues`, this function calculates the Bonferroni correction by multiplying each p-value by *m*, the number of tested hypotheses. This is by default equal to the length of the `pvalues` array, but can be optionally supplied via the `numHypotheses` parameter.
 
-## `.fdr(pvalues,[numHypotheses])`
+### `.fdr(pvalues,[numHypotheses])`
 
 Given an input array of pvalues, `pvalues`, the `.fdr` function calculates the false-discovery-rate adjusted p-values.
 
-## `.bY(pvalues,[numHypotheses])`
+### `.bY(pvalues,[numHypotheses])`
 
 Given an input array of pvalues, `pvalues`, the `.bY` function calculates adjusted p-values according to the method by Benjamini & Yekutieli.
 
-## `.adjustSignificanceLevel(pvalues, alpha)`
+### `.adjustSignificanceLevel(pvalues, alpha)`
 This function can be used in the construction of FDR adjusted confidence intervals. It has two parameters: `pvalues`
 is an array of p-values, `alpha` is the significance level we wish to control the FDR at. The function returns an adjusted signficance level `alpha_fdr`
 which has to be used as the nominal significance level when constructing confidence intervals.
