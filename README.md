@@ -1,4 +1,7 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+[![Dependencies][dependencies-image]][dependencies-url]
 
 # multtest
 
@@ -50,7 +53,12 @@ MIT © [Philipp Burckhardt](http://www.philipp-burckhardt.com)
 
 [npm-url]: https://npmjs.org/package/multtest
 [npm-image]: https://badge.fury.io/js/multtest.svg
+
 [travis-url]: https://travis-ci.org/Planeshifter/multtest
 [travis-image]: https://travis-ci.org/Planeshifter/multtest.svg?branch=master
+
+[coveralls-image]:https://img.shields.io/coveralls/Planeshifter/multtest/master.svg
+[coveralls-url]: https://coveralls.io/r/Planeshifter/multtest?branch=master
+
 [daviddm-url]: https://david-dm.org/Planeshifter/multtest.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/Planeshifter/multtest
