@@ -60,5 +60,5 @@ MIT © [Philipp Burckhardt](http://www.philipp-burckhardt.com)
 [coveralls-image]:https://img.shields.io/coveralls/Planeshifter/multtest/master.svg
 [coveralls-url]: https://coveralls.io/r/Planeshifter/multtest?branch=master
 
-[daviddm-url]: https://david-dm.org/Planeshifter/multtest.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/Planeshifter/multtest
+[daviddm-url]: https://david-dm.org/Planeshifter/multtest
+[daviddm-image]: https://david-dm.org/Planeshifter/multtest.svg?theme=shields.io
